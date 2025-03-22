@@ -1,0 +1,173 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF8E1; /* Light yellow background */
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #FFD700; /* Golden yellow */
+  padding: 40px 0;
+  text-align: center;
+  color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #FFD700;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav .nav-links li {
+  margin-left: 20px;
+}
+
+nav .nav-links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+  color: #555;
+}
+
+nav .nav-links .btn {
+  background-color: #000;
+  color: #FFD700;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+/* Upload Section */
+.upload-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.upload-label {
+  display: inline-block;
+  background-color: #FFD700;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.upload-label:hover {
+  background-color: #FFC300;
+}
+
+.upload-label input {
+  display: none;
+}
+
+button {
+  background-color: #FFD700;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FFC300;
+}
+
+/* Preview Section */
+.preview-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.preview-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #FFD700;
+  color: #000;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #FFC300;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #FFD700;
+  color: #000;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  font-size: 1rem;
+}
